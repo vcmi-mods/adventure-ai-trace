@@ -1,0 +1,24 @@
+{
+	"logging" : {
+		"console" : {
+			"colorMapping" : [
+				{
+					"color" : "magenta",
+					"domain" : "network",
+					"level" : "trace"
+				},
+				{
+					"color" : "teal",
+					"domain" : "ai",
+					"level" : "debug"
+				},
+				{
+					"color" : "teal",
+					"domain" : "ai",
+					"level" : "info"
+				}
+			],
+			"threshold" : "debug"
+		}
+	}
+}
